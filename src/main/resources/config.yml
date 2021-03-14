@@ -1,0 +1,4 @@
+#Enables the usage of the magic character 'k' which makes letters unreadable. OPs can override this option
+use-magic-character: false
+
+#Users go below this line

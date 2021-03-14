@@ -1,0 +1,15 @@
+name: NameColor
+version: ${project.version}
+main: me.hexa.namecolor.NameColor
+authors: [ Hexa ]
+description: Plugin that allows players to change the color of their names
+commands:
+  nc:
+    description: Main plugin command
+permissions:
+  namecolor.custom:
+    description: Permission to use a custom name coloring.
+    default: op
+  namecolor.command:
+    description: Permission to use the /nc command.
+    default: op
